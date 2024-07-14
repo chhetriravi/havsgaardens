@@ -8,11 +8,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-prototype.min.css">
     <link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap" rel="stylesheet">
+  
   </head>
   <style type="text/css">
     #map {
       width: 100%;
       height: 620px;
+    }
+    .custom-h1 {
+      font-family: 'Rosarivo', serif; /* Apply Rosarivo font */
+      font-size: 3rem; /* Adjust font size */
+      font-weight: bold; /* Ensure text is bold */
+      color: #333; /* Set text color */
+      /* text-transform: uppercase; Convert text to uppercase */
+      text-align: center; /* Center align text */
+      margin-bottom: 1rem; /* Add space below the heading */
     }
   </style>
   <body>
@@ -20,7 +34,7 @@
     <div class="top-bar">
       <div class="top-bar-left">
         <ul class="menu vertical medium-horizontal">
-          <li class="menu-text hide-for-small-only">Havsgaardens Vandanalyse ApS</li>
+          <li class="menu-text hide-for-small-only">H</li>
         </ul>
       </div>
       <div class="top-bar-right">
@@ -29,50 +43,92 @@
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About Us</a>
+            <a href="#about">About Us</a>
           </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
+
         </ul>
       </div>
     </div>
     <!-- End Top Bar -->
     <div class="callout large">
       <div class="row column text-center">
-        <h1>Havsgaardens Vandanalyse ApS</h1>
-        <p class="lead">Innovative Insights for Cleaner Water - Specializing in custom analysis to detect inhibitory effects and optimize biological processes, ensuring superior wastewater management.</p>
-        <a href="#" class="button large">Contact Us</a>
-        <!-- <a href="#" class="button large hollow">Learn Less</a> -->
+        <h1 class="custom-h1">Havsgaardens Vandanalyse ApS</h1>
+        <p class="lead"><em>Innovative Insights for Cleaner Water</em> - offering specialized services in process inhibition quantification, disinfection efficiency testing, standard water parameter measurement, and biochemical parameter evaluation for superior wastewater management.</p>
+        
+        <p>At Innovative Insights for Cleaner Water, we conduct custom analyses of unique wastewater scenarios, focusing on detecting inhibitory effects and assessing essential chemical parameters for biological processes and oxygen demand. We provide precise analytical methods for self-monitoring, supported by comprehensive services including implementation, training, documentation, and regulatory approval to deliver tailored solutions.</p>
+        
       </div>
     </div>
-    <article class="grid-container">
-      <div class="grid-x grid-margin-x">
-        <div class="medium-6 cell small-order-2 medium-order-1">
-          <h2>About Us</h2>
-          <p>&nbsp;</p>
-          <p>At Innovative Insights for Cleaner Water, we specialize in custom analysis of unusual wastewater, focusing on detecting inhibitory effects and assessing chemical parameters crucial for biological processes and oxygen demand equivalents. Operating under contract, we develop precise analytical methods to ensure self-control, along with comprehensive services including implementation, training, documentation, and regulatory approval for tailored solutions.</p>
-        </div>
-        <div class="medium-6 cell small-order-1 medium-order-2">
-          <img height=350 class="thumbnail" src="./img/img_hand_water.png">
-        </div>
-      </div>
-      <div class="grid-x grid-margin-x">
-        <div class="medium-3 cell">
-          <h5>Ravi K Chhetri</h5>
-          <p>Email: <a href="mailto:ravi@havsgaardens.dk">ravi@havsgaardens.dk</a>
-          </p>
-        </div>
-        <div class="medium-3 cell">
-          <h5>Henrik R. Andersen</h5>
-          <p>Email: <a href="mailto:henrik@havsgaardens.dk">henrik@havsgaardens.dk</a>
-          </p>
-        </div>
-      </div>
-      <hr>
-    </article>
+
     <div class="row column">
       <article class="grid-container">
+        <h2> Services </h2>
+        <div class="grid-x grid-margin-x">
+          <div class="medium-3 cell">
+            <h5>Process Inhibition Quantification</h5>
+            <p>Nitrification inhibition tests for high saline and non-saline environments to assess microbial activity impact.</p>
+          </div>
+       
+      
+          <div class="medium-3 cell">
+            <h5>Disinfection Efficiency Testing</h5>
+            <p>Disinfection tests for UV, machines, and chemicals, including regulatory approval for system effectiveness.</p>
+          </div>
+      
+          <div class="medium-3 cell">
+            <h5>Standard Water Parameters</h5>
+            <p>Measuring COD in high salt and seawater, total bacteria enumeration, and detection of MS2-coliphages and antibiotic-resistant bacteria.</p>
+          </div>
+    
+          <div class="medium-3 cell">
+            <h5>Biochemical Parameter Quantification</h5>
+            <p>Biological oxygen demand tests for unconventional water sources to evaluate organic matter levels.</p>
+          </div>
+        </div>      
+      </article>
+    </div>
+ <hr>
+
+
+ <article class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="medium-6 cell small-order-2 medium-order-1">
+      <a name="about"></a>
+      <h2>About Us</h2>
+    </div>
+  </div>
+
+  <div class="grid-x grid-margin-x">
+    <div class="large-3 cell">
+      <h5>Ravi K Chhetri</h5>
+      <p>Email: <a href="mailto:ravi@havsgaardens.dk">ravi@havsgaardens.dk</a><br>Phone: 28 14 57 32</p>
+    </div>
+    <div class="small-3 cell">
+      <div class="media-object-section">
+        <img class="thumbnail" src="https://placehold.it/100x150" alt="Ravi's Image">
+      </div>
+    </div>
+
+    <div class="large-3 cell">
+      <h5>Henrik R. Andersen</h5>
+      <p>Email: <a href="mailto:henrik@havsgaardens.dk">henrik@havsgaardens.dk</a><br>Phone: 91 46 11 60</p>
+    </div>
+
+    <div class="small-3 cell">
+      <div class="media-object-section">
+        <img class="thumbnail" src="https://placehold.it/100x150" alt="Henrik's Image">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+</article>
+
+
+
+    <div class="row column">
+      <article class="grid-container">
+        <a name="contact"></a>
         <h3>Addresses</h3>
         <div class="grid-x grid-margin-x">
           <div class="medium-6 cell">
@@ -84,9 +140,6 @@
             <p>Udmarken 1, 2860 Søborg</p>
           </div>
         </div>
-        <div id="map">
-          <iframe src="./map.html" width="100%" height="100%" frameborder="0"></iframe>
-        </div>
       </article>
       <hr>
     </div>
@@ -95,7 +148,7 @@
         <h3> Company Details </h3>
         <div class="grid-x grid-margin-x">
           <div class="medium-6 cell">
-            <h5></h5>
+            <h5>Havsgaardens Vandanalyse ApS</h5>
             <p>CVR Nummer: 43490826</p>
             <p>Bank: Lån & Spar Bank A/S <br>Account number: 0400-4029544277 </p>
           </div>
@@ -108,7 +161,6 @@
     <div class="callout large secondary">
       <div class="row">
         <div class="large-4 columns">
-          <h5>Havsgaardens Vandanalyse ApS</h5>
         </div>
         <footer>
           <p>&copy; 2024 Havsgaardens Vandanalyse ApS</p>
